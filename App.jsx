@@ -4,8 +4,12 @@ import Card from './component/Card/Card.jsx';
 import Search_Bar from './component/Search_Bar/Search_Bar.jsx';
 import ImageSlider from './component/MainSlider/ImageSlider.jsx';
 import PageNavigation from './component/Navigation_Bar/PageNavigation.jsx';
+<<<<<<< HEAD
 import { NavigationContainer } from '@react-navigation/native';
 
+=======
+import { NavigationContainer } from "@react-navigation/native";
+>>>>>>> 5b8ca503b3d1509cb3060ded693cf6d8b2778e46
 
 
 // const slides = [
@@ -17,9 +21,30 @@ import { NavigationContainer } from '@react-navigation/native';
 function App() {
 
   return (
+<<<<<<< HEAD
     <NavigationContainer>
       <PageNavigation />
     </NavigationContainer>
+=======
+    <ScrollView vertical={true}>
+      <View>
+        <Card>
+          <Search_Bar />
+        </Card>
+        <Card>
+          <ImageSlider />
+        </Card>
+        {/* <Image source={'https://cdn.pixabay.com/photo/2024/04/08/14/09/nature-8683570_960_720.jpg'} />
+        <Image source={'../assets/170197658_1261199427652464_4401420973948881651_n.jpg'} /> */}
+
+        <NavigationContainer>
+          <PageNavigation />
+        </NavigationContainer>
+
+
+      </View>
+    </ScrollView>
+>>>>>>> 5b8ca503b3d1509cb3060ded693cf6d8b2778e46
   );
 }
 
