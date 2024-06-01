@@ -2,13 +2,6 @@ import { View, Text, Image, TouchableOpacity, ScrollView } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { SlidesImages } from './SlidesImages';
 import StylesSlider from './StylesSlider';
-<<<<<<< HEAD
-=======
-// import ImageWithCount from '../ImageWithCount/ImageWithCount.jsx';
-
-// import { NavigationContainer } from "@react-navigation/native";
-// import PageNavigation from '../Navigation_Bar/PageNavigation.jsx';
->>>>>>> 5b8ca503b3d1509cb3060ded693cf6d8b2778e46
 
 
 const ImageSlider = () => {
@@ -40,10 +33,7 @@ const ImageSlider = () => {
 
   return (
     <View style={{ flexDirection: 'row' }}>
-<<<<<<< HEAD
-      
-=======
->>>>>>> 5b8ca503b3d1509cb3060ded693cf6d8b2778e46
+
       <TouchableOpacity onPress={handlePre} style={[StylesSlider.button,StylesSlider.buttonLeft]}>
         <Text style={StylesSlider.buttonText}>&#10096;</Text>
       </TouchableOpacity>
@@ -65,14 +55,6 @@ const ImageSlider = () => {
       <TouchableOpacity onPress={handleNext} style={[StylesSlider.button,StylesSlider.buttonRight]}>
         <Text style={StylesSlider.buttonText}>&#10097;</Text>
       </TouchableOpacity>
-
-<<<<<<< HEAD
-=======
-      {/* <NavigationContainer>
-        <PageNavigation />
-      </NavigationContainer>  */}
-
->>>>>>> 5b8ca503b3d1509cb3060ded693cf6d8b2778e46
     </View>
 
   );
